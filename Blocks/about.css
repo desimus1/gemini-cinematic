@@ -1,0 +1,38 @@
+.about__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about__image {
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.about__text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    margin-bottom: 20px; 
+  }
+
+  .about__content {
+    flex-direction: column;
+  }
+
+  .about__text {
+    text-align: center;
+  }
+}

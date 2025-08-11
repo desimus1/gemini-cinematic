@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    background-color: rgb(29, 28, 28);
+     z-index: 1000;
+}
+.header__image{
+    max-width: 150px;
+    max-height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.header__title{
+    
+}
+@media screen and (max-width: 768px){
+    .header__image{
+        max-width: 100px;
+        max-height: 60px;
+        left: 30%;
+        top: 20%;
+    }
+}

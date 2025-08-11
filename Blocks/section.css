@@ -1,0 +1,6 @@
+.section{
+    display: flex;
+}
+.section__title{
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Gemini Cinematic</title>
+</head>
+<body>
+    <div class="page">
+    <header class="header">
+        <img src="./Images/gemini-logo.png" alt="logo" class="header__image">
+        <nav class="navbar">
+        <ul class="navbar__links" id="nav-links">
+            <li class="navbar__item"><a href="#">Home</a></li>
+            <li class="navbar__item"><a href="#about">About</a></li>
+            <li class="navbar__item"><a href="#portfolio">Portfolio</a></li>
+            <li class="navbar__item"><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="page__section about" id="about">
+                <h2 class="about__title">About</h2>
+            <div class="about__content">
+                <img src="./Images/gemini.jpg" alt="Placeholder photo of the portfolio owner" class="about__image">
+                <p class="about__text">My expertise as a videographer goes beyond simply pointing and shooting—I'm a dedicated visual storyteller. I specialize in two very different, yet equally compelling, forms of filmmaking: capturing the raw emotion of weddings and proposals and creating the stylized, high-energy world of music videos.
+
+For weddings and proposals, my focus is on preserving authentic moments. I work discreetly to capture the heartfelt vows, the spontaneous laughter, and the intimate glances that make your story unique. The goal is to create a timeless film that not only documents the day but allows you to relive the powerful emotions for years to come.
+
+With music videos, the process is all about creative vision and collaboration. I partner with artists to bring their sound to life, using dynamic visuals, strategic shot planning, and precise editing to create a compelling narrative. Whether it's a high-energy performance or a mood-driven visual, I craft a film that amplifies the music and leaves a lasting impression.
+
+By working across both of these worlds, I bring a versatile skill set to every project—the documentary-style authenticity of a wedding filmmaker and the creative polish of a music video director</p>
+            </div>
+    </section>
+     <section class="page__section" id="portfolio">
+        <h2 class="cards__title">Portfolio</h2>
+        <div class="cards">
+               <ul class="cards__list">
+            <template id="card__template">
+              <li class="card">
+                <img src="#" alt="" class="card__image" />
+                <div class="card__content">
+                  <h2 class="card__title"></h2>
+                </div>
+              </li>
+            </template>
+          </ul>
+         </div>
+    </section>
+
+    <section class="page__section" id="contact">
+        <h2 class="contact__title">Contact</h2>
+         <div class="contact">
+            <p class="contact__info"><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p class="contact__info"><strong>Instagram:</strong> <a href="https://www.instagram.com/gemini.cinematic/?hl=en" target="_blank">@gemini.cinematic</a></p>
+            <p class="contact__info"><strong>Phone:</strong> (123) 456-7890</p>
+        </div>
+    </section>
+    </div>
+    <div id="image-view-modal" class="modal modal_type_preview">
+        <div class="modal__img-content">
+          <button
+            type="button"
+            class="modal__close-btn modal__close-btn_type_preview"
+          ></button>
+          <img src="#" alt="" class="modal__img" />
+          <p class="modal__caption"></p>
+        </div>
+      </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
